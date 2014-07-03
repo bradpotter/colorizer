@@ -62,7 +62,7 @@ add_action( 'genesis_init', 'colorizer_init', 99 );
  */
 function colorizer_style_sheet() {
 
-		wp_enqueue_style( 'colorizer-style-sheet', COLORIZER_URL . 'css/colorizer-style.css', array(), '1.0.0' );
+	wp_enqueue_style( 'colorizer-style-sheet', COLORIZER_URL . 'css/colorizer-style.css', array(), '1.0.0' );
 
 }
 add_action( 'admin_enqueue_scripts', 'colorizer_style_sheet' );
