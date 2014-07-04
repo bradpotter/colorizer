@@ -32,7 +32,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Define a constant for directories
+ * Define constants
  *
  */
 define( 'COLORIZER_SKIN', dirname( __FILE__ ) . '/skin/' );
