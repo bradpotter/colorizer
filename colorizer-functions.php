@@ -131,7 +131,6 @@ function colorizer_register_customizer_color( $wp_customize ) {
 		)
 	);
 
-	
 	/* - - - - - Header - - - - - */
 
 	add_action( 'customize_render_control_colorizer_header_background_color', 'header_output' );
@@ -767,8 +766,6 @@ function colorizer_register_customizer_color( $wp_customize ) {
 
 }
 add_action( 'customize_register', 'colorizer_register_customizer_color' );
-
-
 
 function colorizer_customizer_css() {
 	?>
