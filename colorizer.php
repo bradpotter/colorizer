@@ -35,7 +35,6 @@ if ( !defined( 'ABSPATH' ) ) {
  * Define a constant for directories
  *
  */
-define( 'COLORIZER_LIB', dirname( __FILE__ ) . '/lib/' );
 define( 'COLORIZER_SKIN', dirname( __FILE__ ) . '/skin/' );
 define( 'COLORIZER_URL' , WP_PLUGIN_URL . '/' . str_replace( basename( __FILE__ ), "" , plugin_basename( __FILE__ ) ) );
 
@@ -49,7 +48,7 @@ function colorizer_init() {
     
 	if ( is_admin ) {
 
-	require_once( COLORIZER_LIB . 'colorizer-functions.php' );
+	require_once( COLORIZER_URL . 'colorizer-functions.php' );
 
 	}
 
