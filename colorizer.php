@@ -48,7 +48,7 @@ function colorizer_init() {
     
 	if ( is_admin ) {
 
-	require_once( COLORIZER_URL . 'colorizer-functions.php' );
+	require_once( 'colorizer-functions.php' );
 
 	}
 
