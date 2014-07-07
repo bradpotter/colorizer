@@ -43,8 +43,8 @@ define( 'COLORIZER_URL' , WP_PLUGIN_URL . '/' . str_replace( basename( __FILE__ 
  *
  */
 function colorizer_init() {
- 
-    load_plugin_textdomain( 'colorizer', false, basename( dirname( __FILE__ ) ) . '/languages/' );
+
+	load_plugin_textdomain( 'colorizer', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 
 	require_once( 'colorizer-functions.php' );
 
