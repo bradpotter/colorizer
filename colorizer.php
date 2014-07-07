@@ -45,12 +45,8 @@ define( 'COLORIZER_URL' , WP_PLUGIN_URL . '/' . str_replace( basename( __FILE__ 
 function colorizer_init() {
  
     load_plugin_textdomain( 'colorizer', false, basename( dirname( __FILE__ ) ) . '/languages/' );
-    
-	if ( is_admin ) {
 
 	require_once( 'colorizer-functions.php' );
-
-	}
 
 }
 add_action( 'genesis_init', 'colorizer_init', 99 );
